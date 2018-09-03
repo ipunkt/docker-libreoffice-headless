@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker build -t ipunkt/libreoffice-headless:latest .
+docker build --pull -t ipunkt/libreoffice-headless:latest .
