@@ -35,7 +35,8 @@ RUN apt-get update && \
 		fonts-texgyre \
 		fonts-tlwg-purisa && \
 	apt-get -y -q remove libreoffice-gnome && \
-	apt -y autoremove
+	apt -y autoremove && \
+	rm -rf /var/lib/apt/lists/*
 
 RUN adduser --home=/opt/libreoffice --disabled-password --gecos "" --shell=/bin/bash libreoffice
 
