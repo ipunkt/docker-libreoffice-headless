@@ -1,7 +1,7 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 LABEL maintainer="r.kummer@ipunkt.biz" \
-	  version.ubuntu="16.04"
+	  version.ubuntu="18.04"
 
 ENV DEBIAN_FRONTEND noninteractive
 
